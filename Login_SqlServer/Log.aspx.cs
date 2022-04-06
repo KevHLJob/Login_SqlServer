@@ -14,6 +14,7 @@ namespace Login_SqlServer
         string patron = "TestLogin";
         protected void BtnIngresar_Click (object sender, EventArgs e)
         {
+            //Papi, mago21
             //Database TestLogin, tbEmployee
             string connetion = ConfigurationManager.ConnectionStrings["conection"].ConnectionString;
             SqlConnection sqlcon = new SqlConnection(connetion);
